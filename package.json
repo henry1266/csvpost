@@ -1,0 +1,25 @@
+{
+  "name": "csvpost",
+  "version": "1.0.0",
+  "description": "A tool to read CSV files and post them to pharmacy-pos API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "csv",
+    "api",
+    "pharmacy",
+    "post"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "csv-parser": "^3.0.0",
+    "form-data": "^4.0.0"
+  }
+}
